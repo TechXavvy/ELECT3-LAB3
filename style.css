@@ -1,0 +1,90 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.container {
+    width: 700px;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: none;
+}
+
+/* Add Task button */
+#addTaskBtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+    #addTaskBtn:hover {
+        background-color: #218838;
+        transform: scale(1.02);
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+/* Delete button */
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+    .delete-btn:hover {
+        background-color: #cc0000;
+        transform: scale(1.05);
+    }
