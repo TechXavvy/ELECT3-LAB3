@@ -39,7 +39,6 @@ input, textarea {
     resize: none;
 }
 
-/* Add Task button */
 #addTaskBtn {
     width: 100%;
     padding: 12px;
@@ -73,7 +72,6 @@ th {
     font-weight: bold;
 }
 
-/* Delete button */
 .delete-btn {
     background-color: #ff4d4d;
     color: white;
